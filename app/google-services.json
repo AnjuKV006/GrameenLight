@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850453405059",
+    "project_id": "grameenlight-b210e",
+    "storage_bucket": "grameenlight-b210e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850453405059:android:ac7ab202addeb56dbdeab6",
+        "android_client_info": {
+          "package_name": "com.example.grameenlight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByT-hFfl92xtoEFX7tjcoBY5oFaKz0tcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

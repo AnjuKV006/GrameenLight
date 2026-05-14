@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 🌐 INTERNET (Firebase + Maps) -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- 📍 LOCATION -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="GrameenLight"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.GrameenLight">
+
+        <!-- 🗺 GOOGLE MAP API KEY (ADDED HERE) -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCg0te09r6xC1c_z8TvUtbFZxPCEmuIYts" />
+
+        <!-- 🚀 WELCOME SCREEN -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+        <!-- 🔐 LOGIN SCREEN -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+
+        <!-- 📊 DASHBOARD -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".PoleStatusActivity"
+            android:exported="true"/>
+
+        <!-- 📝 REPORT ISSUE -->
+        <activity
+            android:name=".ReportActivity"
+            android:exported="true" />
+
+        <!-- 📄 VIEW REPORTS -->
+        <activity
+            android:name=".ViewReportsActivity"
+            android:exported="true" />
+
+        <!-- 👤 PROFILE -->
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
