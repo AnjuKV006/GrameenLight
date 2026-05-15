@@ -1,4 +1,4 @@
-# GrameenLight ⚡  
+<img width="1080" height="2400" alt="Screenshot_20260515_190627" src="https://github.com/user-attachments/assets/c9877251-afa2-4083-9e90-d2755daa4ac1" /># GrameenLight ⚡  
 ### Smart Electricity Monitoring & Complaint Management System
 
 GrameenLight is an advanced Android-based smart monitoring application designed to improve electricity infrastructure management in rural and urban areas. The application enables citizens to report electrical issues in real time while helping authorities monitor, track, and resolve complaints efficiently through a modern digital platform.
@@ -165,7 +165,7 @@ Machine Learning Risk Detection
 Smart IoT Pole Monitoring
 📸 Application Screenshots
 
-Add screenshots of:
+
 
 Dashboard Screen
 Complaint Reporting Screen
