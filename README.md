@@ -108,6 +108,7 @@ The application follows a professional modern UI design philosophy.
 - Smooth User Experience
 - Professional Dashboard Alignment
 - Modern Card-Based UI
+<img width="1080" height="2400" alt="Screenshot_20260515_193419profile" src="https://github.com/user-attachments/assets/06a6e206-c128-4665-bcb6-1a03b5ed8f77" />
 
 ---
 
